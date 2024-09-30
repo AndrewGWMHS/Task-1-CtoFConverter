@@ -27,7 +27,7 @@ public class CelsiusToFahrenheit {
             }
         } while (!valid);
 
-        System.out.printf("%-2s %-1.2f", "Celsius:", temperatureC);
-        System.out.printf("\n%-2s %-1.2f", "Fahrenheit:", temperatureF);
+        System.out.printf("%-12s %1.2f", "Degrees C:", temperatureC);
+        System.out.printf("\n%-12s %-1.2f", "Degrees F:", temperatureF);
     }
 }
